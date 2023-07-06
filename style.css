@@ -28,3 +28,38 @@ li {
   width: 100px;
   padding: 5px;
 }
+
+/* banner */
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  color: white;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(5, 5, 5), rgb(46, 43, 43));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 55px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.photo {
+  width: 300px;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 3px;
+}
