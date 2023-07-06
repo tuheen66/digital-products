@@ -136,3 +136,33 @@ p {
 .box-btn {
   background-color: #1c1b1b;
 }
+
+footer {
+  color: white;
+  background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  padding: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-box {
+  text-align: center;
+  width: 25%;
+}
+
+.logo-box img {
+  width: 170px;
+}
+
+.hr {
+  border-top: 1px solid white;
+  margin-top: 50px;
+}
+.copy {
+  text-align: center;
+}
