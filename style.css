@@ -91,3 +91,48 @@ p {
 .about-us-title {
   font-size: 25px;
 }
+
+/* services section */
+
+.services-container {
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  color: white;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  /* background-color: #131313; */
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 4px 2px 105px gray;
+  padding: 15px;
+}
+
+.icon {
+  width: 70px;
+}
+
+.box-title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.box p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.box-btn {
+  background-color: #1c1b1b;
+}
