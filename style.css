@@ -50,6 +50,7 @@ li {
 
 p {
   margin: 20px 0;
+  font-size: 18px;
 }
 
 .photo {
@@ -62,4 +63,31 @@ p {
   padding: 13px 20px;
   border: none;
   border-radius: 3px;
+}
+
+/* about us */
+
+.about-us {
+  text-align: center;
+  font-size: 54px;
+  margin: 20px 0;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.about-us-image {
+  width: 20%;
+}
+
+.about-photo {
+  width: 100%;
+}
+
+.about-us-title {
+  font-size: 25px;
 }
